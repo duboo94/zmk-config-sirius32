@@ -73,6 +73,26 @@
             >;
         };
 
+        1_layer {
+            bindings = <
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            >;
+        };
+
+        2_layer {
+            bindings = <
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans     &trans
+            >;
+        };
+
         kor_layer {
             bindings = <
             &kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6
