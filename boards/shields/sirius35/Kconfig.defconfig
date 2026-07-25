@@ -1,6 +1,0 @@
-if SHIELD_SIRIUS35
-
-config ZMK_KEYBOARD_NAME
-    default "Sirius35"
-
-endif
