@@ -1,2 +1,2 @@
-config SHIELD_SIRIUS35
-    def_bool $(shields_list_contains,sirius35)
+config SHIELD_SIRIUS33
+    def_bool $(shields_list_contains,sirius33)
