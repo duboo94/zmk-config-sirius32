@@ -87,7 +87,7 @@
         kor_layer {
             bindings = <
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6
-            &kp TAB    &ht F1 Q       &ht F2 W        &ht F3 E        &ht F4 R        &ht F5 T
+            &kp TAB    &ht LS(Q) Q       &ht LS(W) W        &ht LS(E) E        &ht LS(R) R        &ht LS(T) T
             &kp CAPS   &hm LGUI A    &hm LALT S      &hm LCTRL D     &hm LSHFT F           &ht G L
             &kp LSHFT  &ht Z H      &ht X J           &ht C K           &ht V M           &kp N
             &kp LCTRL  &kp C_VOL_DN     &kp C_VOL_UP    &kp LALT   &kp SPACE  &kp M
