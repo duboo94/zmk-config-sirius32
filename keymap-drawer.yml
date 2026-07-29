@@ -3,5 +3,5 @@ layers:
     - [1, 2, 3, 4, 5, 6]
     - [TAB, Q, W, E, R, T, Y]
     - [CAPS, A, S, D, F, G, H]
-    - [SHIFT, Z, X, C, V, B, N]
-    - [CTRL, VOL-, VOL+, ALT, SPACE, M]
+    - [SHIFT, Z, X, C, V, B]
+    - [CTRL, WIN, F13, ALT, SPACE, M]
