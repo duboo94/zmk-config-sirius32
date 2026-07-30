@@ -51,8 +51,8 @@
   │    0   1   2   3   4   5   │
   │  6   7   8   9  10  11  12 │ 
   │ 13  14  15  16  17  18  19 │ 
-  │ 20  21  22  23  24  25  26 │ 
-  │ 27  28  29      30  31  32 │  
+  │ 20  21    22  23  24  25   │ 
+  │ 26  27    28  29  30  31   │  
   ╰────────────────────────────╯ */
 
     combos {
@@ -69,8 +69,8 @@
             &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6
             &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y
             &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G      &kp H
-            &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B      &kp N
-            &kp LCTRL  &kp C_VOL_DN     &kp C_VOL_UP    &kp LALT   &kp SPACE  &kp M
+            &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B
+            &kp LCTRL  &kp LGUI   &kp LALT   &kp LALT   &kp SPACE  &kp M
             >;
         };
 
@@ -79,18 +79,18 @@
             &trans     &trans     &trans     &trans     &trans     &trans
             &trans     &trans     &trans     &trans     &trans     &trans     &trans
             &trans     &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &trans     &trans                &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &trans     &trans     &trans     &trans     &trans
             >;
         };
 
         kor_layer {
             bindings = <
-            &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6
-            &kp TAB    &ht LS(Q) Q       &ht LS(W) W        &ht LS(E) E        &ht LS(R) R        &ht LS(T) T
-            &kp CAPS   &hm LGUI A    &hm LALT S      &hm LCTRL D     &hm LSHFT F           &ht G L
-            &kp LSHFT  &ht Z H      &ht X J           &ht C K           &ht V M           &kp N
-            &kp LCTRL  &kp C_VOL_DN     &kp C_VOL_UP    &kp LALT   &kp SPACE  &kp M
+            &trans     &trans     &trans     &trans     &trans     &trans
+            &trans     &ht LS(Q) Q       &ht LS(W) W        &ht LS(E) E        &ht LS(R) R        &ht LS(T) T
+            &trans     &hm LGUI A    &hm LALT S      &hm LCTRL D     &hm LSHFT F           &ht G L
+            &trans     &ht Z H      &ht X J           &ht C K           &ht V M           &kp N
+            &trans     &trans     &trans     &trans     &trans     &trans
             >;
         };
     };
