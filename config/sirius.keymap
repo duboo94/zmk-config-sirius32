@@ -57,8 +57,9 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_grave { timeout-ms = <50>; key-positions = <0 1>; bindings = <&kp ESC>; };
-        combo_kor { timeout-ms = <50>; key-positions = <1 2 3>; bindings = <&tog 2>; };
+        combo_esc { timeout-ms = <50>; key-positions = <0 1>; bindings = <&kp ESC>; };
+        combo_kor { timeout-ms = <50>; key-positions = <26 27>; bindings = <&tog 1>; };
+        combo_lang { timeout-ms = <50>; key-positions = <20 21>; bindings = <&kp RALT>; };
     };
 
       keymap {
@@ -66,31 +67,31 @@
 
         default_layer {
             bindings = <
-            &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6
-            &kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T      &kp Y
-            &kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G      &kp H
-            &kp LSHFT  &kp Z      &kp X      &kp C      &kp V      &kp B
-            &kp LCTRL  &kp LGUI   &kp LALT   &kp LALT   &kp SPACE  &kp M
-            >;
-        };
-
-        1_layer {
-            bindings = <
-            &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &trans     &trans     &trans     &trans     &trans
+            &kp N1         &kp N2         &kp N3         &kp N4         &kp N5         &kp N6
+            &kp TAB        &kp Q          &kp W          &kp E          &kp R          &kp T          &kp Y
+            &kp CAPS       &kp A          &kp S          &kp D          &kp F          &kp G          &kp H
+            &kp LSHFT      &kp Z          &kp X          &kp C          &kp V          &kp B
+            &kp LCTRL      &kp LGUI       &kp mo(2)      &kp LALT       &kp SPACE      &kp M
             >;
         };
 
         kor_layer {
             bindings = <
-            &trans     &trans     &trans     &trans     &trans     &trans
-            &trans     &ht LS(Q) Q       &ht LS(W) W        &ht LS(E) E        &ht LS(R) R        &ht LS(T) T
-            &trans     &hm LGUI A    &hm LALT S      &hm LCTRL D     &hm LSHFT F           &ht G L
-            &trans     &ht Z H      &ht X J           &ht C K           &ht V M           &kp N
-            &trans     &trans     &trans     &trans     &trans     &trans
+            &ht F1 N1      &ht F2 N2      &ht F3 N3      &ht F4 N4      &ht F5 N5      &ht F6 N6
+            &kp TAB        &kp Q          &kp W          &kp E          &kp R          &kp T          &kp Y
+            &kp TAB        &hm LGUI A     &hm LALT S     &hm LCTRL D    &hm LSHFT F    &ht G L        &kp H
+            &kp LSHFT      &ht Z H        &ht X J        &ht C M        &ht V K        &ht B N   
+            &kp LCTRL      &kp LGUI       &kp LALT       &kp LALT       &kp SPACE      &kp M
+            >;
+        };
+
+        fn_layer {
+            bindings = <
+            &kp F1         &kp F2         &kp F3         &kp F4         &kp F5         &kp F6
+            &trans         &trans         &trans         &trans         &trans         &trans         &trans
+            &trans         &trans         &trans         &trans         &trans         &trans         &trans
+            &trans         &trans         &trans         &trans         &trans         &trans
+            &kp C_VOL_DN   &kp C_VOL_UP   &trans         &trans         &trans         &trans
             >;
         };
     };
