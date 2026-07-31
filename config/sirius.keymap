@@ -71,7 +71,7 @@
             &kp TAB        &kp Q          &kp W          &kp E          &kp R          &kp T          &kp Y
             &kp CAPS       &kp A          &kp S          &kp D          &kp F          &kp G          &kp H
             &kp LSHFT      &kp Z          &kp X          &kp C          &kp V          &kp B
-            &kp LCTRL      &kp LGUI       &kp mo(2)      &kp LALT       &kp SPACE      &kp M
+            &kp LCTRL      &kp LGUI       &mo 2          &kp LALT       &kp SPACE      &kp M
             >;
         };
 
